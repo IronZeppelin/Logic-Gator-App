@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="copyright">Copyright at Simple Reaction Studio</string>
+
+    <!-- Activity Names and Random Resource Text -->
+    <string name="app_name">LogicGator</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_and_gate">And_gate</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_or_gate">Or_gate</string>
+    <string name="title_activity_nand_gate">Nand_gate</string>
+    <string name="title_activity_nor_gate">Nor_gate</string>
+    <string name="title_activity_xor_gate">Xor_gate</string>
+    <string name="title_activity_xnor_gate">Xnor_gate</string>
+    <string name="title_activity_not_gate">Not_gate</string>
+	<string name="title_activity_buffer_gate">Buffer_gate</string>
+    
+    <!-- Header Text -->
+    <string name="header_text_txt">Select a logic gate.</string>
+    <string name="header_buff_txt">Buffer</string>
+    <string name="header_not_txt">Not</string>
+    <string name="header_and_txt">AND</string>
+    <string name="header_nand_txt">NAND</string>
+    <string name="header_or_txt">OR</string>
+    <string name="header_nor_txt">NOR</string>
+    <string name="header_xor_txt">XOR</string>
+    <string name="header_xnor_txt">XNOR</string>
+
+    <!-- Body Text -->
+    <string name="body_buff_txt">The Buffer Logic Gate is used to increase a weak signal in a circit design. The buffer preforms the same task as two inverters or Not Gates.</string>
+    <string name="body_not_txt">The Not Gate, or Inverter, swtiches the input signal from high to low, or low to high.</string>
+    <string name="body_and_txt">The And Gate checks whether both signal inputs are high. The output signal will only be high if all of the inputs are high, otherwise the output signal will be low. </string>
+    <string name="body_nand_txt">The Nand Gate is an And Gate with a inverter. This gate will return a high signal as long as the input signals are not both high.</string>
+    <string name="body_or_txt">The OR Gate will produce a high output singal, as long as the input signals are not both low.</string>
+    <string name="body_nor_txt">The NOR Gate is an OR Gate with an inverter and will only produce a high output if both input signals are low.</string>
+    <string name="body_xor_txt">The XOR Gate checks whether the input signals are the same. If they are the same the output signal is high, otherwise the output will be low.</string>
+    <string name="body_xnor_txt">The XNOR Gate is a XOR gate with an inverter, returning a high output singal when the input signals are different.</string>
+    
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.SRstudio.logicgator"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="11" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.SRstudio.logicgator.MainActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.SRstudio.logicgator.And_gate"
+            android:label="@string/title_activity_and_gate" 
+            android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+        <activity
+            android:name="com.SRstudio.logicgator.Or_gate"
+            android:label="@string/title_activity_or_gate" 
+            android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+        <activity
+            android:name="com.SRstudio.logicgator.Nand_gate"
+            android:label="@string/title_activity_nand_gate" 
+            android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+        <activity
+            android:name="com.SRstudio.logicgator.Nor_gate"
+            android:label="@string/title_activity_nor_gate" 
+            android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+        <activity
+            android:name="com.SRstudio.logicgator.Xor_gate"
+            android:label="@string/title_activity_xor_gate"
+            android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="com.SRstudio.logicgator.Xnor_gate"
+            android:label="@string/title_activity_xnor_gate"
+            android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="com.SRstudio.logicgator.Not_gate"
+            android:label="@string/title_activity_not_gate"
+            android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="com.SRstudio.logicgator.Buffer_gate"
+            android:label="@string/title_activity_buffer_gate"
+            android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation|screenSize" >
+        </activity>
+    </application>
+
+</manifest>
